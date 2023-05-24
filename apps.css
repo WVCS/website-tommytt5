@@ -1,0 +1,54 @@
+nav {
+  list-style-type: none;
+  background-color: black;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  font-stretch: condensed;
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+  font-size: 14px;
+  padding: 100px;
+  font-family: "Inconsolata", sans-serif;
+  text-align: center;
+}
+
+li:hover {
+  background-color: lightgray;
+  padding: 15px;
+  padding-right: 100px;
+  padding-left: 100px;
+  font-weight: bold;
+  text-align: center;
+  opacity: 96%;
+}
+
+li:hover a{
+  color: black
+}
+
+h6 {
+  font-family: 'Century Gothic';
+  font-size: 200%;
+  padding: 0;
+  margin: 25px;
+  line-height: 15px;
+}
+
+h8 {
+  font-family: 'trebuchet ms';
+  font-size: 110%;
+  padding: 0;
+  margin: 20px;
+  line-height: 10px;
+}
